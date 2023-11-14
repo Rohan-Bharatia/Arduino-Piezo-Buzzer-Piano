@@ -7,4 +7,4 @@ Parts required
 - 1 Piezo® Buzzer
 - 8 Pushbuttons
 - 20+ Assorted Length Breadboard Wires
-- 1 Computer (to upload the code)
+- 1 Computer (To upload the code)
