@@ -8,3 +8,5 @@ Parts required
 - 8 Pushbuttons
 - 20+ Assorted Length Breadboard Wires
 - 1 Computer (To upload the code)
+
+.ino file can also be done with a .cpp file and an '#include <Arduino.h>'
