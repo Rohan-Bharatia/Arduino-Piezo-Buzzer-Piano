@@ -1,22 +1,23 @@
 #include <Arduino.h>
 #include <pitches.h>
 
-const int pitchPin[8] = {3, 4, 5, 6, 7, 8, 9, 10};
-const int piezoBuzzerPin = 13;
-const int pitch[8];
+int pitchPin[8];
+int piezoBuzzerPin = 13;
+int pitch[8];
 
 void setup()
-{ 
+{
   for(int i = 0; i < 8; i++)
   {
+    for(int p = 3; p < 11; p++)
+    {
+      pitchPin[p] = i;
+    }
+    pitch[i] = analogRead(pitchPin[i]);
+    
     pinMode(pitchPin[i], INPUT);
   }
   pinMode(piezoBuzzerPin, INPUT);
-
-  for(int i = 0; i < 8; i++)
-  {
-    pitch[i] = analogRead(pitchPin[i]);
-  }
 }
 
 void playPitches(int min, int max)
