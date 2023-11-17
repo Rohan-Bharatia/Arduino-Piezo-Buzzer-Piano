@@ -9,4 +9,4 @@ Parts required
 - 20+ Assorted Length Breadboard Wires
 - 1 Computer (To upload the code)
 
-.ino file can also be replicated with a .cpp file and an '#include <Arduino.h>'
+.ino file can also be replicated with a .cpp file and an '#include <Arduino.h>' which is done here in main.cpp
